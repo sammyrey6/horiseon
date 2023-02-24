@@ -7,23 +7,23 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*changed .header into nav to keep sem and maintain style*/
 nav {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*changed to apply appropriatley*/
 nav h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*changed to apply appropriatley*/
 nav h1 .seo {
     color: #d9dcd6;
 }
-
+/*changed to apply appropriatley*/
 nav div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +31,11 @@ nav div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*changed to apply appropriatley*/
 nav div ul {
     list-style-type: none;
 }
-
+/*changed to apply appropriatley*/
 nav div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*changed .hero to section to keep sem and maitain the style*/
 section {
     height: 800px;
     width: 100%;
@@ -68,13 +68,13 @@ section {
     float: right;
     margin-left: 25px;
 }
-
+/*changed .benefits to article to keep sem and maintain the style*/
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*changed .benefits to aside to keep sem and maintain the*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -187,7 +187,7 @@ aside {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*changed to footer for semantics*/
 footer {
     padding: 30px;
     clear: both;
